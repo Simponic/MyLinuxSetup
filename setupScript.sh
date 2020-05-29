@@ -21,3 +21,4 @@ wget https://www.itl.cat/pngfile/big/10-101092_kerbal-space-program-kerman.jpg
 gsettings set org.gnome.desktop.background picture-uri 10-101092_kerbal-space-program-kerman.jpg
 
 sudo apt install -y openssh-server
+sudo apt install -y python python-pip
