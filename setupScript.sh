@@ -17,8 +17,8 @@ sudo apt install -y gnome-tweak-tool
 sudo apt install -y snapd snap
 sudo snap install code --classic
 sudo snap install spotify
-wget https://www.itl.cat/pngfile/big/10-101092_kerbal-space-program-kerman.jpg
-gsettings set org.gnome.desktop.background picture-uri 10-101092_kerbal-space-program-kerman.jpg
+wget https://images8.alphacoders.com/427/thumb-1920-427841.png
+gsettings set org.gnome.desktop.background picture-uri thumb-1920-427841.png
 
 sudo apt install -y openssh-server
 sudo apt install -y python python-pip
