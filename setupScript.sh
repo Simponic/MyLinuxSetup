@@ -22,3 +22,7 @@ gsettings set org.gnome.desktop.background picture-uri thumb-1920-427841.png
 
 sudo apt install -y openssh-server
 sudo apt install -y python python-pip
+
+echo "set autoindent
+set tabstop=4
+set number" >> ~/.vimrc
