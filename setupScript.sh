@@ -21,7 +21,7 @@ wget https://images8.alphacoders.com/427/thumb-1920-427841.png
 gsettings set org.gnome.desktop.background picture-uri thumb-1920-427841.png
 
 sudo apt install -y openssh-server
-sudo apt install -y python python-pip
+sudo apt install -y python 
 
 echo "set autoindent
 set tabstop=4
