@@ -91,5 +91,4 @@ let g:ycm_confirm_extra_conf=0
 "
 
 # Install YouCompleteMe for vim
-cd ~/.vim/Plugged/YouCompleteMe
-python3 install.py --all
+python3 ~/.vim/plugged/YouCompleteMe/install.py --all
