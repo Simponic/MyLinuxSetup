@@ -4,8 +4,7 @@
 sudo pacman -Syu
 
 # Install build packages and git
-sudo pacman -S cmake base-devel git 
-mkdir ~/git
+sudo pacman -S cmake base-devel git mkdir ~/git
 
 # Install emojis, source-code fonts, fontawesome, and htop
 sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
@@ -67,6 +66,8 @@ Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
 Plug 'Raimondi/delimitMate'
+Plug 'jceb/vim-orgmode'
+
 call plug#end()
 
 colorscheme sonokai
