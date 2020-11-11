@@ -1,5 +1,4 @@
 # Install arch stuff
-
 # Upgrade
 sudo pacman -Syu
 
@@ -66,7 +65,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'vim-syntastic/syntastic'
 Plug 'Raimondi/delimitMate'
-Plug 'jceb/vim-orgmode'
 
 call plug#end()
 
