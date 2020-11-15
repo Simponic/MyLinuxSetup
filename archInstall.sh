@@ -3,7 +3,8 @@
 sudo pacman -Syu
 
 # Install build packages and git
-sudo pacman -S cmake base-devel git mkdir ~/git
+sudo pacman -S cmake base-devel git
+mkdir ~/git
 
 # Install emojis, source-code fonts, fontawesome, and htop
 sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
@@ -28,9 +29,8 @@ alias ls='ls --color=auto'
 alias untar='tar -xvf'
 alias backlight='xbacklight -set'
 export PS1='\n\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;14m\]\u\[$(tput sgr0)\]\[\033[38;5;2m\]@\[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;6m\]\h\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;165m\][\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;208m\]\t\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;208m\]\d\[$(tput sgr0)\] \[$(tput sgr0)\]\[\033[38;5;165m\]]\[$(tput sgr0)\] : \[$(tput sgr0)\]\[$(tput bold)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]\n> \[$(tput sgr0)\]'
-export BROWSER="/usr/bin/firefox"
 
-alias l="ls -l"
+alias l='ls -l'
 alias vi='vim'
 " >> ~/.bashrc
 
@@ -38,6 +38,9 @@ alias vi='vim'
 sudo pacman -S curl
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 	    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# Install python
+sudo pacman -S python
 
 echo "
 syntax on
