@@ -3,7 +3,7 @@
 sudo pacman -Syu
 
 # Install build packages and git
-sudo pacman -S cmake base-devel git
+sudo pacman -S cmake base-devel git vim
 mkdir ~/git
 
 # Install emojis, source-code fonts, fontawesome, and htop
