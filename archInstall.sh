@@ -12,11 +12,17 @@ sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
 # Install xorg stuff
 sudo pacman -S xorg-server xorg-apps xorg-xinit compton
 
+# Install firefox
+sudo pacman -S firefox
+
 # Install acpi for battery
 sudo pacman -S acpi
 
 # Install my favorite terminal emulator - termite
 sudo pacman -S termite
+
+mkdir -p ~/.config/termite
+cp ./termite-config ~/.config/termite/
 
 # Install feh for background
 sudo pacman -S feh
