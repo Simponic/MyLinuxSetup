@@ -10,13 +10,16 @@ mkdir ~/git
 sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
 
 # Install xorg stuff
-sudo pacman -S xorg-server xorg-apps
+sudo pacman -S xorg-server xorg-apps xorg-xinit compton
 
 # Install acpi for battery
 sudo pacman -S acpi
 
 # Install my favorite terminal emulator - termite
 sudo pacman -S termite
+
+# Install feh for background
+sudo pacman -S feh
 
 # DWM setup ; make install must be run by user
 cd ~/git
@@ -90,7 +93,11 @@ set listchars=tab:\¦\
 set list
 
 let g:ycm_confirm_extra_conf=0
-"
+" >> ~/.vimrc
 
 # Install YouCompleteMe for vim
 python3 ~/.vim/plugged/YouCompleteMe/install.py --all
+
+# Please don't spam
+git config --global user.email "loganthebean222@gmail.com"
+git config --global user.name "Simponic"

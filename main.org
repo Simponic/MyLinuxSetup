@@ -1,5 +1,0 @@
-#+begin_src python
-import random
-
-print(random.random())
-#+end_src
