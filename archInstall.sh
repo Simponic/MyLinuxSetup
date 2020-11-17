@@ -10,7 +10,14 @@ mkdir ~/git
 sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
 
 # Install xorg stuff
-sudo pacman -S xorg-server xorg-apps xorg-xinit compton
+sudo pacman -S xorg-server xorg-apps xorg-xinit xcompmgr 
+
+echo "
+exec dwm &
+exec xcompmgr -c -l0 -t0 -40 -o.00 &
+exec feh --bg-center ~/git/MyLinuxSetup/background.jpg &
+exec barM
+" >> ~/.xinitrc
 
 # Install firefox
 sudo pacman -S firefox
