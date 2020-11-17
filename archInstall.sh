@@ -3,11 +3,11 @@
 sudo pacman -Syu
 
 # Install build packages and git
-sudo pacman -S cmake base-devel git vim
+sudo pacman -S cmake base-devel git vim htop go
 mkdir ~/git
 
 # Install emojis, source-code fonts, fontawesome, and htop
-sudo pacman -S noto-fonts-emojiadobe-source-code-pro-fonts ttf-font-awesome htop
+sudo pacman -S noto-fonts-emoji adobe-source-code-pro-fonts ttf-font-awesome htop
 
 # Install xorg stuff
 sudo pacman -S xorg-server xorg-apps xorg-xinit xcompmgr 
