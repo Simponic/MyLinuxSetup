@@ -114,3 +114,10 @@ python3 ~/.vim/plugged/YouCompleteMe/install.py --all
 # Please don't spam
 git config --global user.email "loganthebean222@gmail.com"
 git config --global user.name "Simponic"
+
+echo "
+def Settings( **kwargs ):
+    return {
+        'flags': [ '-x', 'c++', '-Wall', '-Wextra', '-Werror'],
+    }
+" >> ~/.ycm_extra_conf.py
