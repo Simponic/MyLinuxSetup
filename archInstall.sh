@@ -10,11 +10,11 @@ mkdir ~/git
 sudo pacman -S noto-fonts-emoji adobe-source-code-pro-fonts ttf-font-awesome htop
 
 # Install xorg stuff
-sudo pacman -S xorg-server xorg-apps xorg-xinit xcompmgr 
+sudo pacman -S xorg-server xorg-apps xorg-xinit picom 
 
 echo "
 exec dwm &
-exec xcompmgr -c -l0 -t0 -40 -o.00 &
+exec picom &
 exec feh --bg-center ~/git/MyLinuxSetup/background.jpg &
 exec barM
 " >> ~/.xinitrc
@@ -29,7 +29,7 @@ sudo pacman -S acpi
 sudo pacman -S termite
 
 mkdir -p ~/.config/termite
-cp ./termite-config ~/.config/termite/
+cp ./termite-config ~/.config/termite/config
 
 # Install feh for background
 sudo pacman -S feh
