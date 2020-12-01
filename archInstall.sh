@@ -109,7 +109,7 @@ let g:ycm_confirm_extra_conf=0
 " >> ~/.vimrc
 
 # Install YouCompleteMe for vim
-python3 ~/.vim/plugged/YouCompleteMe/install.py --all
+# python3 ~/.vim/plugged/YouCompleteMe/install.py --all
 
 # Please don't spam
 git config --global user.email "loganthebean222@gmail.com"
